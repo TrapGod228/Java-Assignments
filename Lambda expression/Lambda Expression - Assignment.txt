@@ -1,0 +1,11 @@
+						Lambda Expression - Assignment
+
+Q1) Lambda function is an anonymous function which doesnot have a name , access modifiers or a return type.
+
+Q2) You can use lambda expression  when there are interfaces with only one abstract class. At that time you can define that class using lambda expression instead of making another class for it.]
+
+Q3) A functional interface in  java8 is an interface which consist of only one abstract class.
+
+Q4) We use lambda experessions in java mainly to shorten our code which can become lengthy when not used.
+
+Q5) No it is not mandatory for a lambda expression to have parameters.
