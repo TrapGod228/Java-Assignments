@@ -1,0 +1,39 @@
+						ASSIGNMENT
+
+Q1) Interface is a java feature where it will only allow abstract methods. All the variables inside it are public static final and methods are public and abstract.
+
+Q2) Only Public modifier can be used in an interface. 
+	
+	for eg:
+		interface x
+			{
+				void show();
+		
+			   }
+		class Y implements x
+		{
+			void show() // This method is by default public in an interface.
+				{
+					System.out.println("Showing everything here!!!!"); 
+				}
+		}
+
+		class Main
+		{
+			public static void main(String []args)
+			{
+				Y obj = new Y();
+				obj.show();
+			}
+		}
+
+Q3) Interface is kind of a concept which helps in making a class.for eg : A car is a concept while the cars like waganor , innova, amaze all are real implementation of that car. So we can make car as an interface while we can make rest of them as classes.
+
+Q4) In interface , we can only have abstract methods while in java we can have both.
+
+    In interface, a constructor is not present as an object cannot be made for it but abstract classes has default 
+    constructors in them.
+
+    Interface uses implemnts keyword while abstract claseses use extends keyword.
+
+    Variables in interface are public static final by default but that is not the case in abstract classes.
