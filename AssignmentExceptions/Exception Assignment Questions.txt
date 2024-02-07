@@ -1,0 +1,43 @@
+							Exception Assignment Questions
+
+Q1) There are three types of errors in java:
+	1) Syntax error - They are the errors which happens when you have written the syntax or used the rules of the 			  program wrongly. Compiler will throw an error.
+
+	2) Logical error - In this type of errors, compiler will not throw an error as it is syntactically correct 			   but logically the output coming is wrong.
+
+	3) Runtime error - Here the eror happens at the runtime and have to be handled or else your program wil shut 			   down.
+
+Q2) An unwanted or unexpected event that disturbs the normal flow of execution of a program is called an exception in java.
+
+Q3) You can handle an exception in java using try and catch block.
+	for eg:
+		int res = 0;
+		int num1 = 2;
+		int num2 = 0;
+		try
+		{
+			res = num1/num2;
+		} 
+		catch(ArithmeticException e)
+		{
+			System.out.println("Error.....");
+		}  
+
+Q4) We need exception handling in order to handle exceptions in java. If not handled the program might shut down and the flow of execution of the program will be disrupted.
+
+Q5) Exceptions are those whcih can be recoverd while error in java cannot be recoverd or handled due to lack of system resources.
+
+Q6) Different types of exceptions in java are:
+	1. Runtime Exceptions
+	2. IO Exceptions
+	3. SQL Exceptions
+	4. AWT Exceptions
+	5. Interrupted Exceptions 
+
+Some of the Runtime exceptions are :
+	Arithmetic Exceptions
+	NullPointer Exceptions
+	ArrayIndexOutoOBoundException 
+
+Q7) We can use try with resource but normally we cant use try on its own, as we need to handle the exception when it is encountered . When we use try alone there is no logic behind it.
+                                 
