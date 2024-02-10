@@ -1,0 +1,21 @@
+						ASSIGNMENT MULTITHREADING
+
+Q1) Excecuting several tasks simultaneously where each task is a seperate independent part of the same program. Here                each independent part is called a thread. 
+It is important because it helps in having a different line of execution for each part and thus reducing the waiting time for the processor.
+
+Q2) The main advantages of multithreading are it reduces the response time of the system and it also improves its performance.
+
+Q3) A seperate flow of execution is called a thread. If there is only one flow then it is called sinle threadf programming.
+
+Q4) The two ways for implementing thread in java are:
+	1. implementing Runnable interface.
+	2. extending Thread class.
+
+Q5) A thread is a seperate flow of execution or we can say it is a part of the same process. While process is the whole program in itself when it is in RAM. 
+
+Q6) In order to make a thread daemon we have to set the daemon flag to true before starting the thread.
+
+Q7) We can make the main thread wait for the child thread as well as we can make the child thread also wait for the main thread.
+
+ If a thread doesnt want to perform any operation for a particular amount of time then we use the sleep().
+
