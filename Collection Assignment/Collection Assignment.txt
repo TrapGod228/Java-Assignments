@@ -1,0 +1,15 @@
+						Collection Assignment
+
+Q1) Collection is a framework in java used to store data dyanamicaly and can hold hetrogenous type of data as welll.
+
+Q2) In array list contiguos memory location is given for storing data while in linked list random memory is given (node) to each data which are then chained together.
+
+Q3) WE can use iterator to get objects one by one from collection. The main differrence of using listiterator is that we can move either forward or backward direction while using it.
+
+Q4) Enumeration is a concept similar to iterator.Enumerators are used for legacy classes while iterators are used for collection framework or classes.
+
+Q5) List is an interface which is implemented by arraylist,linked list classes. while set is another interface whcih is implemented by hashset liniked hashset etc.Lists can store hetrogenous type of data while set cant.
+
+Q6) HashSet stores data in buckets using hash function while tree set stores data as a binary search tree.Retrieval of data in hashset is really fast.
+
+Q7) ArrayList can contain hetrogenous type of data while array can have only homogenous type of data. ArrayList is dyanamic in nature while arrays are not.
